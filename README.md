@@ -2,7 +2,6 @@
 
 A Chrome extension that enhances the LeetCode coding experience by adding an AI-powered assistant directly into the interface.
 
----
 
 ## 🚀 What does the extension do?
 
@@ -20,19 +19,16 @@ This tool allows you to:
 
 This turns LeetCode practice into an interactive guided experience — like having a mentor sitting next to you.
 
----
 
 ## 🧩 Screenshots
 
 ### Explain + Hints Mode  
 ![Explain](screenshots/explain.png)
 
----
 
 ### Full Solution Mode  
 ![Solution](screenshots/solution.png)
 
----
 
 ## 🛠 Installation — Chrome Extension (Client)
 
