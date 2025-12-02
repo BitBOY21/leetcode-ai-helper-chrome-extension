@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "AI Code Assistant (Personal)",
+  "description": "Personal AI assistant for LeetCode problem explanations.",
+  "version": "1.0",
+
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "http://127.0.0.1:8000/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
